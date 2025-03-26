@@ -1,0 +1,87 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f9;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.container {
+    background-color: #fff;
+    padding: 20px 40px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    max-width: 400px;
+    width: 100%;
+    text-align: center;
+}
+
+h1 {
+    color: #333;
+    margin-bottom: 20px;
+}
+
+input[type="text"], input[type="number"] {
+    width: calc(100% - 20px);
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+button {
+    background-color: #2267b1;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+button:active {
+    transform: scale(0.98);
+}
+
+input[type="text"], input[type="number"] {
+    font-size: 18px;
+    padding: 15px;
+    border-radius: 25px;
+}
+
+button {
+    padding: 15px 30px;
+    border-radius: 25px;
+    font-size: 18px;
+}
+
+.container {
+    padding: 30px 50px;
+    border-radius: 25px;
+}
+button:hover {
+    background-color: #0056b3;
+}
+
+.result {
+    margin-top: 30px;
+    font-size: 20px; /* Increased font size */
+    color: #fff;
+    background-color: #ff5733; /* More vibrant background color */
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    text-align: center;
+    border: 2px solid #ff5733; /* Added border */
+    font-weight: bold; /* Made text bold */
+}
+.result:hover {
+    background-color: #ff6f3d; /* Lighter background color on hover */
+}
+.result span {
+    font-weight: bold;
+}
