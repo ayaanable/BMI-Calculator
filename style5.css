@@ -1,6 +1,6 @@
 body {
     font-family: Arial, sans-serif;
-    background-color: #f4f4f9;
+    background-color: #355245;
     margin: 0;
     padding: 0;
     display: flex;
@@ -10,7 +10,7 @@ body {
 }
 
 .container {
-    background-color: #fff;
+    background-color: #dde0de71;
     padding: 20px 40px;
     border-radius: 10px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
@@ -35,7 +35,7 @@ input[type="text"], input[type="number"] {
 
 button {
     background-color: #2267b1;
-    color: #fff;
+    color: #E3E5D8;
     border: none;
     padding: 10px 20px;
     border-radius: 5px;
@@ -70,7 +70,7 @@ button:hover {
 .result {
     margin-top: 30px;
     font-size: 20px; /* Increased font size */
-    color: #fff;
+    color: #E3E5D8;
     background-color: #ff5733; /* More vibrant background color */
     padding: 20px;
     border-radius: 10px;
